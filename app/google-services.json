@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "689970092224",
+    "project_id": "docty-528a6",
+    "storage_bucket": "docty-528a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689970092224:android:d4391dc186f864892f3525",
+        "android_client_info": {
+          "package_name": "com.example.docty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "689970092224-f2i5lnr14odnid5b7iqv4qat1at5v2v3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbgSfumFDX7gfWM4QgCwLpcaBe2Hj20CU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "689970092224-f2i5lnr14odnid5b7iqv4qat1at5v2v3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

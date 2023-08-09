@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/dashboard"
+        android:title="Dashboard"
+        android:icon="@drawable/dashboard_icon"
+        android:checked="true"/>
+<!--    <item-->
+<!--        android:id="@+id/messages"-->
+<!--        android:title="Messages"-->
+<!--        android:icon="@drawable/message_icon"-->
+<!--        android:iconTint="@color/gradient_light_blue"/>-->
+    <item
+        android:id="@+id/prescription"
+        android:title="prescription"
+        android:icon="@drawable/background_main"/>
+    <item
+        android:id="@+id/appointment"
+        android:title="appointment"
+        android:icon="@drawable/background_main"/>
+    <item
+        android:id="@+id/profile"
+        android:title="profile"
+        android:icon="@drawable/background_main"/>
+</menu>

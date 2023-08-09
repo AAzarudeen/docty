@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Docty</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="token">007eJxTYOAvYbB1qy3pmXn61bH+lqBzc0KYd7X0To7ezPFgJtM0jWsKDMbmqalGholmqakpFiaGKaYWiWZAmJZmaGSUYmhqnnJ30vKUhkBGBpMdYgyMUAjiszKk5CeXVDIwAABc2B/s</string>
+    <string name="appId">37ee21a6eed841d58a6a6aff122d157d</string>
+    <string name="channel">docty</string>
+</resources>

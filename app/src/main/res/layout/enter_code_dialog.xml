@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/code"
+        android:hint="Enter code"
+        style="@style/edit_text_style"
+        android:background="@color/gradient_dark_light_blue"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/submit"
+        android:text="Submit"
+        style="@style/btn_style"/>
+</LinearLayout>

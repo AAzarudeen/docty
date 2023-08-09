@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/background_main"
+    tools:context=".fragments.InitialDetailsFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:text="Basic details"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        style="@style/page_title" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="20dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp">
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/edittext_background"/>
+    </androidx.cardview.widget.CardView>
+    <EditText
+        android:id="@+id/name"
+        android:hint="Name"
+        style="@style/edit_text_style" />
+        <LinearLayout
+            style="@style/edit_text_style"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Gender"
+                style="@style/edit_text_style"
+                android:layout_marginVertical="0dp"
+                android:layout_marginStart="-10dp"/>
+            <RadioGroup
+                android:id="@+id/gender"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                style="@style/edit_text_style"
+                android:layout_margin="0dp"
+                android:layout_weight="1">
+                <RadioButton
+                    android:id="@+id/male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Male"
+                    android:layout_marginEnd="30dp"/>
+                <RadioButton
+                    android:id="@+id/female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Female"/>
+            </RadioGroup>
+        </LinearLayout>
+    <TextView
+        android:id="@+id/dob"
+        style="@style/edit_text_style"
+        android:hint="Date of birth"/>
+    <EditText
+        android:id="@+id/phone"
+        android:hint="Phone no."
+        style="@style/edit_text_style"
+        android:inputType="phone"/>
+    <EditText
+        android:id="@+id/height"
+        android:hint="Height"
+        style="@style/edit_text_style" />
+    <EditText
+        android:id="@+id/weight"
+        android:hint="weight"
+        style="@style/edit_text_style" />
+    <EditText
+        android:id="@+id/blood_type"
+        android:hint="Blood type"
+        style="@style/edit_text_style" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/submit"
+        style="@style/btn_style"
+        android:text="submit"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"/>
+    </LinearLayout>
+</ScrollView>
